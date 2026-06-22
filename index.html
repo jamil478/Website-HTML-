@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Audio Store</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,Arial,sans-serif}
+body{background:#f4f6fb;color:#111}
+.container{width:min(1200px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-size:32px;font-weight:800}
+.btn{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;padding:14px 24px;border-radius:999px;text-decoration:none}
+.hero{background:linear-gradient(135deg,#08112f,#15106d);color:#fff;border-radius:30px;padding:60px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px}
+.hero h1{font-size:72px;line-height:1}
+.hero p{margin:20px 0;font-size:18px;color:#d6d6ff}
+.mock{height:420px;border-radius:24px;background:radial-gradient(circle,#5b5bff,#0b0b2f)}
+.section{padding:50px 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;padding:20px;border-radius:24px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+.product{height:220px;border-radius:16px;background:linear-gradient(135deg,#ececff,#d9dbff)}
+.price{color:#4f46e5;font-weight:700;margin-top:10px}
+.banner{margin:40px 0;background:linear-gradient(135deg,#09092d,#3b0bb8);color:#fff;padding:40px;border-radius:24px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.feature{background:#fff;border-radius:20px;padding:25px;text-align:center}
+footer{padding:40px 0;text-align:center;color:#666}
+@media(max-width:900px){
+.hero,.cards,.features{grid-template-columns:1fr}
+.hero h1{font-size:46px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+<div class="logo">CRESCENDO</div>
+<a class="btn" href="#">Shop Now</a>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Elevate Your Audio Journey</h1>
+<p>Premium sound, modern design, luxury shopping experience and high-converting ecommerce layout.</p>
+<a class="btn" href="#">Explore Collection</a>
+</div>
+<div class="mock"></div>
+</section>
+
+<section class="section">
+<h2>Featured Products</h2><br>
+<div class="cards">
+<div class="card"><div class="product"></div><h3>Earbuds X168A</h3><div class="price">$270</div></div>
+<div class="card"><div class="product"></div><h3>Headphones Pro</h3><div class="price">$250</div></div>
+<div class="card"><div class="product"></div><h3>Speaker P168A</h3><div class="price">$240</div></div>
+</div>
+</section>
+
+<div class="banner">
+<h2>Up To 30% OFF</h2>
+<p>Premium audio products and accessories.</p>
+</div>
+
+<section class="section">
+<h2>Why Shop With Us?</h2><br>
+<div class="features">
+<div class="feature">Free Delivery</div>
+<div class="feature">Easy Returns</div>
+<div class="feature">Secure Payment</div>
+<div class="feature">24/7 Support</div>
+</div>
+</section>
+
+<footer>
+Premium Ecommerce Landing Page Template
+</footer>
+</div>
+</body>
+</html>
